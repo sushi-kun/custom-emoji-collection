@@ -1,0 +1,10 @@
+{
+  "name": "custom-emoji-collection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sushi-kun/custom-emoji-collection.git",
+  "license": "MIT",
+  "scripts": {
+    "generate-image": "magick montage original-emoji/**.png -geometry 128x128+50+50 -tile 5x media/collection-montage.png"
+  }
+}
